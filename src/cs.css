@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	font-size: 12px;
+	text-decoration: 0;
+	color:#222;
+}
+a,
+input,
+button{
+	outline: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 100;
+}
+img{
+	display: block;
+	border: 0;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	font-size: 12px;
+	text-decoration: 0;
+	color:#222;
+}
+a,
+input,
+button{
+	outline: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 100;
+}
+img{
+	display: block;
+	border: 0;
+}
+
+y{
+	background: rgba(0,0,0,0.8);
+}
+body{
+    /* //为网页设置背景图片 */
+	background-image: url(../img/xx.jpg);
+}
+.wrap{
+    /* //使界面主体在浏览器居中 */
+	position: absolute;/* //绝对定位 */
+	left: 50%;
+	top: 50%;
+	margin: -175px 0 0 -250px;
+	padding: 20px;
+	width: 500px;
+	height: 350px;
+	background: #333333;
+	box-shadow:0 0 10px rgba(255,255,255,0.5);
+	box-sizing: border-box;/* //padding和border被包含在定义的width和height之内 */
+}
+h1{
+	height: 50px;
+	font-size: 1.6em;
+	text-align: center;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.input-group{
+	margin: 20px auto;
+	height: 40px;
+	width: 300px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+i{
+	float: left;/* //左浮 */
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px !important;
+	background: rgb(22,160,93);
+	color: #fff;
+	font-size: 22px !important;
+	
+}
+.form-control{
+	float: left;
+	padding: 0 10px;
+	height: 40px;
+	border: 0;
+	width: 260px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+.btn-group{
+	border: 0;
+	margin-top: 40px;
+}
+button{
+	display: block;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+	letter-spacing: 10px;
+	border: 1px solid rgb(22,160,93);
+	color: rgb(22,160,93);
+	background: #fff;
+	cursor: pointer;
+}
+button:hover{
+    /* 为按钮元素设置鼠标悬浮的动态效果 */
+	color: #fff;
+	background: rgb(22,160,93);
+}
+p{
+	font-size: 12px;
+	text-align: center;
+	color: #888;
+}

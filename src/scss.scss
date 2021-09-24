@@ -1,0 +1,59 @@
+body {
+    p {
+      color: red;
+      &:hover {
+        color: green;
+      }
+    }
+  }
+
+  body {
+    p {
+      font: {
+        size: 34px;
+        family: "Courier";
+        weight: bold;
+      }
+    }
+  }
+  @mixin mix($width) {
+    border: $width solid red;
+  }
+  
+  body {
+    p {
+      @include mix(2px);
+      color: red;
+      &:hover {
+        color: green;
+        @include mix(6px);
+      }
+    }
+  }
+
+  %mix {
+    border: 1px solid red;
+  }
+  
+  body {
+    p {
+      @extend %mix;
+      color: red;
+      &:hover {
+        color: green;
+        @extend %mix;
+      }
+    }
+  }
+  body {
+    p {
+      $content: "---";
+      &:before {
+        content: "[#{$content}";
+      }
+  
+      &:after {
+        content: "#{$content}]";
+      }
+    }
+  }
